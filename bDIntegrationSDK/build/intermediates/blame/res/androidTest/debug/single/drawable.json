@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android_GitHub\\BaiduIntegrationSDK\\bDIntegrationSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_bg_dialog_title.xml",
+        "source": "D:\\Android_GitHub\\BaiduIntegrationSDK\\bDIntegrationSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\bdp_update_bg_dialog_title.xml"
+    },
+    {
+        "merged": "D:\\Android_GitHub\\BaiduIntegrationSDK\\bDIntegrationSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_progress_download.xml",
+        "source": "D:\\Android_GitHub\\BaiduIntegrationSDK\\bDIntegrationSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\bdp_update_progress_download.xml"
+    },
+    {
+        "merged": "D:\\Android_GitHub\\BaiduIntegrationSDK\\bDIntegrationSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_bg_dialog_content.xml",
+        "source": "D:\\Android_GitHub\\BaiduIntegrationSDK\\bDIntegrationSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\bdp_update_bg_dialog_content.xml"
+    },
+    {
+        "merged": "D:\\Android_GitHub\\BaiduIntegrationSDK\\bDIntegrationSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bdp_update_bg_dialog_btn.xml",
+        "source": "D:\\Android_GitHub\\BaiduIntegrationSDK\\bDIntegrationSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\bdp_update_bg_dialog_btn.xml"
+    }
+]

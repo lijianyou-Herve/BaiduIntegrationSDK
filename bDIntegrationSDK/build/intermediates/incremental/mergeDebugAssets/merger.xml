@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Android_GitHub\BaiduIntegrationSDK\bDIntegrationSDK\src\main\assets"/><source path="D:\Android_GitHub\BaiduIntegrationSDK\bDIntegrationSDK\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\Android_GitHub\BaiduIntegrationSDK\bDIntegrationSDK\src\debug\assets"/></dataSet></merger>

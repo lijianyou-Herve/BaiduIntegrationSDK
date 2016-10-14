@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "24.0.3"
+
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"//版本号
+        manifestPlaceholders = [
+                BDAPPID : "\${BDAPPID}",
+                BDAPPKEY: "\${BDAPPKEY}",
+        ]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/Baidu_Mtj_3.7.4.5.jar')
+    compile files('libs/BDAutoUpdateSDK_20150605_V1.2.0.jar')
+    compile files('libs/need_lib.jar')
+    compile files('libs/patchupdate.jar')
+}
+apply from: "https://raw.githubusercontent.com/xiaopansky/android-library-publish-to-jcenter/master/bintrayUpload.gradle"

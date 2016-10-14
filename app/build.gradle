@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
+    defaultConfig {
+        applicationId "comte.example.herve.baiduintegrationsdk"
+        minSdkVersion 24
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+//    简书博客地址（教程）：http://www.jianshu.com/p/0e7b8e14f0cd
+//    详细配置和说明在 bDIntegrationSDK Module 的local.properties 和 project.properties 里面
+//    Step01:构建：
+//
+//           在下面的Terminal里面直接输入:gradlew install(成功之后就可以进行Step02)
+//
+//    Step02:执行命令打包并上传到Bintray
+//
+//           在下面的Terminal里面直接输入：gradlew bintrayUpload
+//
+//    注意：如果需要上传到GitHub上，在上传前记得将配置的用户名和密码等安全信息隐藏
+//          或者添加到 Ignore
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    testCompile 'junit:junit:4.12'
+}
